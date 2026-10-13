@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Peptide Evolution: tienda de péptidos de investigación en México con atención por WhatsApp.">
+    <title>Peptide Evolution | Péptidos de investigación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20261012-1">
+  </head>
+  <body>
+    <section class="country-gate" id="countryGate" aria-labelledby="countryGateTitle">
+      <div class="country-gate-card">
+        <img src="assets/logo-peptide-evolution-transparent.png" alt="Peptide Evolution">
+        <p class="eyebrow">Peptide Evolution</p>
+        <h1 id="countryGateTitle">¿En qué país quieres comprar?</h1>
+        <p>Mostraremos moneda, precios y condiciones de envío de acuerdo con tu ubicación.</p>
+        <div class="country-options">
+          <button type="button" data-country="MX"><strong>México</strong><span>Precios en MXN · Envío gratis desde MX$2,000</span></button>
+          <button type="button" data-country="EC"><strong>Ecuador</strong><span>Precios en USD · Envío gratis desde US$150</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="research-gate" id="researchGate" aria-labelledby="researchGateTitle">
+      <div class="research-gate-card">
+        <img src="assets/logo-peptide-evolution-transparent.png" alt="Peptide Evolution">
+        <p class="eyebrow">Acceso al catálogo</p>
+        <h1 id="researchGateTitle">Material para investigación.</h1>
+        <p>Este catálogo contiene información comercial de productos para investigación. No sustituye orientación médica ni está destinado a uso terapéutico.</p>
+        <label class="research-confirmation"><input id="researchConfirmation" type="checkbox"> Confirmo que soy investigador o profesional y que revisaré los productos conforme a la normativa aplicable.</label>
+        <button id="researchGateContinue" type="button" disabled>Entrar al catálogo</button>
+        <a class="js-whatsapp" href="#" data-message="Hola, quiero información sobre Peptide Evolution antes de acceder al catálogo.">Tengo una pregunta</a>
+      </div>
+    </section>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="motion-background" aria-hidden="true">
+      <span class="motion-dna motion-dna-one"></span>
+      <span class="motion-dna motion-dna-two"></span>
+      <span class="motion-particles"></span>
+    </div>
+    <div class="top-announcement">
+      <span>Envíos disponibles</span>
+      <p data-country-message>Elige un país para conocer las condiciones de envío.</p>
+      <a class="js-whatsapp" href="#" data-message="Hola, quiero información de Peptide Evolution.">Hablar con asesor</a>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Peptide Evolution inicio">
+        <img src="assets/logo-peptide-evolution-transparent.png" alt="Peptide Evolution">
+      </a>
+      <nav class="top-nav" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#areas">Péptidos</a>
+        <a href="#educacion">Guía rápida</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="header-cta js-whatsapp" href="#" data-message="Hola, quiero información de Peptide Evolution.">WhatsApp</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Peptide Evolution · México</p>
+          <h1>Investigación más clara.<br>Compra más simple.</h1>
+          <p class="hero-text">Un catálogo organizado por enfoque, fichas de producto y acompañamiento directo para confirmar disponibilidad, envío y pago.</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#catalogo">Explorar catálogo</a>
+            <a class="secondary-action js-whatsapp" href="#" data-message="Hola, quiero contactar a un asesor de Peptide Evolution.">Contactar experto</a>
+          </div>
+          <div class="hero-metrics" aria-label="Diferenciadores rápidos">
+            <article>
+              <strong>20+</strong>
+              <span>Productos disponibles</span>
+            </article>
+            <article>
+              <strong>MX</strong>
+              <span>Envíos nacionales</span>
+            </article>
+            <article>
+              <strong>SSL</strong>
+              <span>Pago protegido</span>
+            </article>
+          </div>
+          <div class="quick-links" aria-label="Explorar por área">
+            <span>Explorar:</span>
+            <a href="#areas">Composición</a>
+            <a href="#areas">Regeneración</a>
+            <a href="#areas">Cognición</a>
+            <a href="#areas">Longevidad</a>
+          </div>
+        </div>
+        <div class="hero-product" aria-label="Presentación liofilizada Peptide Evolution">
+          <div class="hero-lab-card">
+            <span class="lab-card-kicker">Peptide Evolution System</span>
+            <div class="hero-vial-set" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="lab-card-footer">
+              <span>Viales liofilizados</span>
+              <strong>Accesorios por separado</strong>
+            </div>
+          </div>
+          <div class="domain-card">
+            <span>Catálogo online</span>
+            <strong>www.peptidevolution.com</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Diferenciadores">
+        <article>
+          <strong>Atención directa</strong>
+          <span>Resolvemos tus dudas por WhatsApp.</span>
+        </article>
+        <article>
+          <strong>Compra organizada</strong>
+          <span>Filtra, revisa y reúne productos en una cotización.</span>
+        </article>
+        <article>
+          <strong>Pago seguro</strong>
+          <span>Checkout protegido cuando el producto esté disponible en línea.</span>
+        </article>
+        <article>
+          <strong>Envío nacional</strong>
+          <span>Confirmamos cobertura y tiempos antes de finalizar.</span>
+        </article>
+      </section>
+
+      <section class="advisor-band">
+        <div>
+          <p class="eyebrow">Presentación incluida</p>
+          <h2>Compra viales y accesorios según lo que necesitas.</h2>
+          <p>Los péptidos se presentan en viales liofilizados e incluyen agua bacteriostática de 3 ml. Los accesorios adicionales se muestran por separado cuando estén disponibles.</p>
+        </div>
+        <a class="primary-action" href="#catalogo">Ver catálogo</a>
+      </section>
+
+      <section class="education-section" id="educacion">
+        <div class="section-heading">
+          <p class="eyebrow">Guía rápida</p>
+          <h2>Entiende el catálogo en 60 segundos</h2>
+          <p>Información clara para comprar de forma ordenada y resolver dudas antes de enviar tu cotización.</p>
+        </div>
+        <div class="education-grid">
+          <article>
+            <span>01</span>
+            <h3>¿Qué es un péptido?</h3>
+            <p>Cadenas cortas de aminoácidos estudiadas por su participación en señales biológicas específicas.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>¿Cómo se elige?</h3>
+            <p>Por área de investigación, disponibilidad, presentación y documentación comercial del lote.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>¿Cómo se compra?</h3>
+            <p>Elige un producto, revisa su ficha y pide por WhatsApp para confirmar precio, disponibilidad y entrega.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>¿Qué incluye?</h3>
+            <p>Presentación, accesorios disponibles, precio y tiempos de entrega confirmados antes de finalizar tu compra.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="areas-section" id="areas">
+        <div class="section-heading">
+          <p class="eyebrow">Explora por área</p>
+          <h2>Péptidos clasificados por enfoque</h2>
+          <p>Una forma intuitiva de recorrer el catálogo antes de cotizar productos específicos.</p>
+        </div>
+        <div class="areas-grid" id="areasGrid"></div>
+      </section>
+
+      <section class="catalog-section" id="catalogo">
+        <div class="section-heading">
+          <p class="eyebrow">Tienda en línea</p>
+          <h2>Catálogo Peptide Evolution</h2>
+          <p>Selecciona productos para armar una cotización. Los precios, lotes y presentaciones se confirman por WhatsApp.</p>
+        </div>
+
+        <div class="shop-layout">
+          <aside class="filters" aria-label="Filtros">
+            <label for="searchInput">Buscar péptido</label>
+            <input id="searchInput" type="search" placeholder="Ej. tirzepatide">
+
+            <span class="filter-label">Categoría</span>
+            <div class="filter-buttons" id="categoryFilters"></div>
+          </aside>
+
+          <div class="products-wrap">
+            <div class="catalog-toolbar">
+              <span id="productCount">20 productos</span>
+              <span class="catalog-hint">Precios por unidad · Selecciona país para ver tu moneda</span>
+            </div>
+            <div class="products-grid" id="productsGrid"></div>
+            <button class="load-more-products" id="loadMoreProducts" type="button">Ver más productos</button>
+          </div>
+
+          <aside class="cart-panel" aria-label="Cotización">
+            <div class="cart-header">
+              <span>Mi cotización</span>
+              <strong id="cartCount" aria-label="0 productos">0</strong>
+            </div>
+            <div class="cart-items" id="cartItems" aria-live="polite"></div>
+            <div class="cart-summary" id="cartSummary" aria-live="polite">
+              <span>Subtotal estimado</span>
+              <strong id="cartSubtotal">$0</strong>
+              <p id="shippingProgress">Selecciona país para conocer las condiciones de envío.</p>
+            </div>
+            <div class="checkout-form">
+              <h3>Solicita disponibilidad</h3>
+              <p>Al finalizar, Stripe solicitará tus datos de contacto y dirección de envío de forma segura.</p>
+              <button class="stripe-checkout" id="stripeCheckout" type="button" disabled>Continuar al pago seguro</button>
+              <p class="checkout-status" id="checkoutStatus" role="status" aria-live="polite"></p>
+              <a class="cart-whatsapp" id="cartWhatsapp" href="#" target="_blank" rel="noopener">Pedir cotización por WhatsApp</a>
+            </div>
+            <small>Recibirás la confirmación por correo. Envíos: DHL en México y Servientrega en Ecuador.</small>
+          </aside>
+        </div>
+      </section>
+
+      <section class="professional-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">Canales profesionales</p>
+          <h2>Soluciones para compradores recurrentes</h2>
+          <p>Si buscas volumen, abastecimiento constante o atención especial, podemos revisar tus necesidades por WhatsApp.</p>
+        </div>
+        <div class="professional-grid">
+          <article>
+            <span>Mayoreo</span>
+            <h3>Distribuidores</h3>
+            <p>Cotizaciones por volumen, seguimiento directo y apoyo comercial para tu canal de venta.</p>
+            <a class="js-whatsapp" href="#" data-message="Hola, quiero información para distribuidores de Peptide Evolution.">Solicitar información</a>
+          </article>
+          <article>
+            <span>Atención técnica</span>
+            <h3>Investigadores</h3>
+            <p>Consulta disponibilidad, presentaciones y documentación comercial de productos seleccionados.</p>
+            <a class="js-whatsapp" href="#" data-message="Hola, quiero información para investigadores sobre Peptide Evolution.">Contactar</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="info-band" id="contacto">
+        <div>
+          <p class="eyebrow">Información importante</p>
+          <h2>Uso responsable y comunicación clara</h2>
+        </div>
+        <p>El contenido de esta página es informativo y comercial. No sustituye orientación médica, no indica dosis, no promete resultados y no diagnostica ni trata enfermedades. La venta y uso de cada producto debe cumplir con la normativa aplicable en tu ubicación.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img src="assets/logo-peptide-evolution-transparent.png" alt="Peptide Evolution">
+        <span>Peptide Evolution</span>
+      </div>
+      <p>www.peptidevolution.com</p>
+      <p class="footer-contact">
+        <a class="social-link" href="https://www.instagram.com/peptidevolution" target="_blank" rel="noopener" aria-label="Instagram Peptide Evolution">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm8.7 1.7a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+          @peptidevolution
+        </a>
+        <a class="social-link js-whatsapp" href="#" data-message="Hola, quiero hablar con Peptide Evolution." aria-label="WhatsApp Peptide Evolution">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.1 2a9.8 9.8 0 0 1 8.4 14.8L22 22l-5.4-1.4A9.9 9.9 0 0 1 2.2 12 9.9 9.9 0 0 1 12.1 2Zm0 2A7.9 7.9 0 0 0 4.2 12a7.8 7.8 0 0 0 11.8 6.7l.4-.2 2.7.7-.7-2.6.3-.4A7.9 7.9 0 0 0 12.1 4Zm-3.2 3.9c.2 0 .4 0 .6.4l.8 1.8c.1.3.1.5-.1.7l-.4.5c-.1.1-.2.3 0 .6.3.6.8 1.3 1.5 1.9.9.8 1.7 1.1 2.1 1.3.3.1.5.1.7-.1l.7-.8c.2-.2.4-.2.7-.1l1.8.9c.3.2.4.4.4.6 0 .7-.6 1.5-1.1 1.8-.5.3-1.9.6-4.1-.5-3.5-1.6-5.7-5-5.9-5.2-.2-.3-1.4-1.9-1.4-3.5 0-1.7.9-2.5 1.2-2.8.3-.3.6-.4.9-.4h.6Z"/></svg>
+          3313016273
+        </a>
+      </p>
+      <a class="js-whatsapp" href="#" data-message="Hola, quiero hablar con Peptide Evolution.">Contactar por WhatsApp</a>
+    </footer>
+
+    <a class="floating-whatsapp js-whatsapp" href="#" data-message="Hola, quiero información de Peptide Evolution." aria-label="Contactar por WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.1 2a9.8 9.8 0 0 1 8.4 14.8L22 22l-5.4-1.4A9.9 9.9 0 0 1 2.2 12 9.9 9.9 0 0 1 12.1 2Zm0 2A7.9 7.9 0 0 0 4.2 12a7.8 7.8 0 0 0 11.8 6.7l.4-.2 2.7.7-.7-2.6.3-.4A7.9 7.9 0 0 0 12.1 4Zm-3.2 3.9c.2 0 .4 0 .6.4l.8 1.8c.1.3.1.5-.1.7l-.4.5c-.1.1-.2.3 0 .6.3.6.8 1.3 1.5 1.9.9.8 1.7 1.1 2.1 1.3.3.1.5.1.7-.1l.7-.8c.2-.2.4-.2.7-.1l1.8.9c.3.2.4.4.4.6 0 .7-.6 1.5-1.1 1.8-.5.3-1.9.6-4.1-.5-3.5-1.6-5.7-5-5.9-5.2-.2-.3-1.4-1.9-1.4-3.5 0-1.7.9-2.5 1.2-2.8.3-.3.6-.4.9-.4h.6Z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+
+    <script src="products-data.js?v=20261013-1"></script>
+    <script src="script.js?v=20261011-1"></script>
+  </body>
+</html>
